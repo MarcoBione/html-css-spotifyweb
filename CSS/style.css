@@ -50,11 +50,25 @@ main{
     overflow: hidden;
 }
 
+/* side nav menu */
 .nav-sidemenu{
     width: 230px;
     min-height: 480px;
     background-color: var(--dark);
 }
+/* /side nav menu */
+
+/* app content */
+
+.app-content{
+    width: calc(100% - 230px);
+    height: 100%;
+    background-color: var(--soft-dark);
+    overflow-y: auto;
+}
+
+/* /app content */
+
 /* main end */
 
 /* app end */
