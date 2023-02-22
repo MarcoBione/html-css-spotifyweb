@@ -24,6 +24,9 @@
     display: flex;
 }
 
+.upp-c{
+    text-transform: uppercase;
+}
 /* general end */
 
 /* body */
@@ -77,6 +80,16 @@ main{
     width: calc(100% - 230px);
     height: 70px;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+.button{
+    border: 1px solid var(--light);
+    color: var(--light);
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    display: inline-block;
+    font-size: 0.7rem;
 }
 
 /* /app content */
