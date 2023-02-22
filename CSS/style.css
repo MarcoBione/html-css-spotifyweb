@@ -70,6 +70,15 @@ main{
     overflow-y: auto;
 }
 
+#promotions{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 230px);
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 /* /app content */
 
 /* main end */
