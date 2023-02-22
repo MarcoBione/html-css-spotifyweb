@@ -61,7 +61,7 @@
 main{
     width: 100%;
     height: calc(100% - 90px);
-    color: var(--soft-dark);
+    color: var(--grey);
     overflow: hidden;
 }
 
@@ -99,6 +99,10 @@ main{
     padding: 0.5rem 2rem;
     display: inline-block;
     font-size: 0.7rem;
+}
+
+.albums{
+    margin-top: 70px;
 }
 
 /* /app content */
