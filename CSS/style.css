@@ -66,6 +66,10 @@ a{
     padding: 1rem 1rem 1rem 0;
 }
 
+.padd-logo{
+    padding: 1rem 1rem 0 1rem;
+}
+
 /* general end */
 
 /* body */
@@ -179,6 +183,14 @@ main{
     font-size: 0.6rem;
 }
 
+.sidemenu-commands li img{
+    width: 1.5rem;
+    padding-right: 0.3rem;
+}
+
+.sidemenu-commands li{
+    padding: 0.3rem 0;
+}
 /* /nav sidebarmenu */
 
 /* main end */
