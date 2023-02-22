@@ -24,6 +24,10 @@
     display: flex;
 }
 
+.f-direction{
+    flex-direction: column;
+}
+
 ul{
     list-style: none;
 }
@@ -58,6 +62,10 @@ a{
 .padd-lr{
     padding: 0.2rem 1rem;
 }
+.padd-s{
+    padding: 1rem 1rem 1rem 0;
+}
+
 /* general end */
 
 /* body */
@@ -125,6 +133,29 @@ main{
 .albums{
     margin-top: 70px;
 }
+
+/* first row */
+
+.row{
+    outline: 1px solid red;
+}
+
+.spacer{
+    width: calc(100% / 6);
+}
+
+.img-box img{
+    width: 100%;
+    display: block;
+}
+
+.img-box{
+    max-width: 100%;
+}
+
+
+
+/* /first row */
 
 /* /app content */
 
