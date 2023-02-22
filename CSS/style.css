@@ -24,12 +24,26 @@
     display: flex;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--grey);
+    font-size: 0.8rem;
+}
+
 .upp-c{
     text-transform: uppercase;
 }
 
 .just-e{
     justify-content: end;
+}
+
+.just-c{
+    justify-content: center;
 }
 
 .align-ic{
@@ -39,6 +53,10 @@
 
 .padd-1{
     padding: 1rem;
+}
+
+.padd-lr{
+    padding: 0.2rem 1rem;
 }
 /* general end */
 
@@ -99,7 +117,6 @@ main{
     border: 1px solid var(--light);
     color: var(--light);
     border-radius: 25px;
-    text-decoration: none;
     padding: 0.5rem 2rem;
     display: inline-block;
     font-size: 0.7rem;
