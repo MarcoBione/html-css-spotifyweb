@@ -161,10 +161,25 @@ main{
     padding: 0.2rem;
 }
 
-
 /* /first row */
 
 /* /app content */
+
+/* nav sidebarmenu */
+
+.logo{
+    color: var(--light);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.logo sup{
+    color: var(--light);
+    font-weight: lighter;
+    font-size: 0.6rem;
+}
+
+/* /nav sidebarmenu */
 
 /* main end */
 
