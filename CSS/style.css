@@ -27,6 +27,15 @@
 .upp-c{
     text-transform: uppercase;
 }
+
+.just-e{
+    justify-content: end;
+}
+
+.align-ic{
+    align-items: center;
+    align-content: center;
+}
 /* general end */
 
 /* body */
