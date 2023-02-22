@@ -20,6 +20,9 @@
 
 /* general */
 
+.d-flex{
+    display: flex;
+}
 
 /* general end */
 
