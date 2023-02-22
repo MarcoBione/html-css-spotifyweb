@@ -49,6 +49,12 @@ main{
     color: var(--soft-dark);
     overflow: hidden;
 }
+
+.nav-sidemenu{
+    width: 230px;
+    min-height: 480px;
+    background-color: var(--dark);
+}
 /* main end */
 
 /* app end */
