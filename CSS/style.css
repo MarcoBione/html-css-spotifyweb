@@ -153,6 +153,10 @@ main{
     max-width: 100%;
 }
 
+.rounded{
+    border-radius: 50%;
+}
+
 .title p, .title sub{
     padding: 0.2rem;
 }
