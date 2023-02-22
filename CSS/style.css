@@ -153,6 +153,9 @@ main{
     max-width: 100%;
 }
 
+.title p, .title sub{
+    padding: 0.2rem;
+}
 
 
 /* /first row */
