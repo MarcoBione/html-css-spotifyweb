@@ -172,6 +172,10 @@ main{
     width: 20px;
 }
 
+.profile{
+    position: relative;
+}
+
 .download img{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -181,9 +185,18 @@ main{
     font-size: 0.7rem;
 }
 
-
 .download p span, .profile p span{
     padding-left: 0.5rem;
+}
+
+.wallpaper{
+    background-color: var(--grey);
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+    position: absolute;
+    top:2px;
+    left: 0px;
 }
 
 
