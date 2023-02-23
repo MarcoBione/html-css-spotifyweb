@@ -38,6 +38,11 @@ a{
     font-size: 0.8rem;
 }
 
+a:hover,
+a:active{
+    color: var(--light);
+}
+
 .upp-c{
     text-transform: uppercase;
 }
