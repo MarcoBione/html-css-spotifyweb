@@ -381,12 +381,12 @@ main{
     font-weight: bold;
 }
 
-.icon i{
+.icon i, .utilities i{
     cursor: pointer;
     opacity: 0.5;
 }
 
-.icon i:hover{
+.icon i:hover, .utilities i:hover{
     opacity: 1;
 }
 
@@ -430,10 +430,44 @@ main{
     cursor: pointer;
 }
 
-
 .icon-c{
     font-size: 1.5rem;
 }
+
+/* /central playbar */
+
+/* utilities playbar */
+.vol-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40%;
+    height: 5px;
+    border-radius: 5px;
+    background: var(--grey);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    background-image: linear-gradient(var(--acid), var(--acid));
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+.vol-slider:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.vol-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background: var(--light);
+    cursor: pointer;
+}
+/* /utilitis playbar */
 
 /* playbar end */
 
