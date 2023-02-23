@@ -22,6 +22,16 @@
     outline: 1px solid red;
 }
 
+.transform{
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+
+.transform:hover{
+    transform: scale(1);
+}
+
+
 /* general */
 
 .d-flex{
@@ -69,6 +79,10 @@ a:active{
 
 .just-s{
     justify-content: space-between;
+}
+
+.just-a{
+    justify-content: space-around;
 }
 
 .u-line{
@@ -375,6 +389,52 @@ main{
 .icon i:hover{
     opacity: 1;
 }
+
+/* central playbar */
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 70%;
+    height: 5px;
+    border-radius: 5px;
+    background: var(--grey);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    background-image: linear-gradient(var(--acid), var(--acid));
+    background-size: 25% 100%;
+    background-repeat: no-repeat;
+}
+
+.slider:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background: var(--light);
+    cursor: pointer;
+}
+
+.music-controls i{
+    padding: 0 1rem;
+}
+
+.music-controls i{
+    cursor: pointer;
+}
+
+
+.icon-c{
+    font-size: 1.5rem;
+}
+
 /* playbar end */
 
 /* app end */

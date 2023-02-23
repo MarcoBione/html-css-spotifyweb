@@ -441,27 +441,27 @@
             <!-- /listening current trak -->
 
             <!-- main playbar controls -->
-            <div class="central-commands debug">
+            <div class="central-commands d-flex f-direction just-c just-a debug">
 
                 <!-- control for music -->
-                <div class="music-controls">
+                <div class="music-controls d-flex just-c align-ic">
 
-                    <i class="fa-solid fa-shuffle"></i>
-                    <i class="fa-solid fa-backward-step"></i>
-                    <i class="fa-sharp fa-regular fa-circle-play"></i>
-                    <i class="fa-solid fa-forward-step"></i>
-                    <i class="fa-solid fa-rotate-right"></i>
+                    <i class="fa-solid fa-shuffle icon-c transform"></i>
+                    <i class="fa-solid fa-backward-step icon-c transform"></i>
+                    <i class="fa-sharp fa-regular fa-circle-play icon-c transform"></i>
+                    <i class="fa-solid fa-forward-step icon-c transform"></i>
+                    <i class="fa-solid fa-rotate-right icon-c transform"></i>
 
                 </div>
                 <!-- control for music -->
 
-                <div class="music-state">
+                <div class="music-state d-flex just-c align-ic">
                     <!-- current music time -->
-                    <span class="time">0:25</span>
+                    <div class="time">0:25</div>
                     <!-- /current music time -->
-
+                    <input type="range" min="1" max="100" value="25" class="slider">
                     <!-- total time music -->
-                    <span class="time">4:10</span>
+                    <div class="time">4:10</div>
                     <!-- /total time music -->
                 </div>
             </div>
