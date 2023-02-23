@@ -18,7 +18,7 @@
 
 }
 
-.debug{
+.debu{
     outline: 1px solid red;
 }
 
@@ -30,8 +30,30 @@
 .transform:hover{
     transform: scale(1);
 }
+/* scrollbar */
 
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--soft-dark);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--dark-grey);
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--grey);
+  }
 
+/* scrollbar end */
 /* general */
 
 .d-flex{
@@ -265,7 +287,9 @@ main{
     right: 0;
     width: calc(100% - 230px);
     height: 70px;
-    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    z-index: 999;
 }
 
 .button{
@@ -285,7 +309,7 @@ main{
 /* first row */
 
 .row{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .spacer{
