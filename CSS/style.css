@@ -170,6 +170,11 @@ main{
     padding: 0.2rem;
 }
 
+.title p{
+    color: var(--light);
+    font-weight: 700;
+}
+
 /* /first row */
 
 /* /app content */
