@@ -68,6 +68,10 @@ a:active{
     align-content: center;
 }
 
+.align-e{
+    align-items: baseline;
+}
+
 .padd-1{
     padding: 1rem;
 }
@@ -81,6 +85,10 @@ a:active{
 }
 .padd-s{
     padding: 1rem 1rem 1rem 0;
+}
+
+.padd-u{
+    padding-top: 1rem;
 }
 
 .padd-logo{
@@ -168,6 +176,10 @@ main{
     height: 80px;
 }
 
+.sidemenu-user>hr{
+    opacity: 0.5;
+}
+
 .profile img{
     width: 20px;
 }
@@ -195,7 +207,7 @@ main{
     height: 30px;
     opacity: 0.5;
     position: absolute;
-    top:2px;
+    top:17px;
     left: 0px;
 }
 
