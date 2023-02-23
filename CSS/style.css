@@ -63,6 +63,18 @@ a:active{
     justify-content: center;
 }
 
+.just-s{
+    justify-content: space-between;
+}
+
+.u-line{
+    font-size: 0.6rem;
+}
+
+.u-line:hover{
+    text-decoration: underline;
+}
+
 .align-ic{
     align-items: center;
     align-content: center;
@@ -89,6 +101,10 @@ a:active{
 
 .padd-u{
     padding-top: 1rem;
+}
+
+.padd-i{
+    padding: 0 0.5rem;
 }
 
 .padd-logo{
@@ -328,6 +344,22 @@ main{
 /* /app content */
 
 /* main end */
+
+/* playbar */
+
+.music, .utilities{
+    width: 230px;
+    height: 100%;
+}
+.album-img-played img{
+    width: 50px;
+}
+
+.current-name{
+    font-weight: bold;
+}
+
+/* playbar end */
 
 /* app end */
 
