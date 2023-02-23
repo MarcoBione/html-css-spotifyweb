@@ -410,7 +410,7 @@
         </main>
         <!-- /application display -->
 
-        <div id="control-bar">
+        <div id="control-bar d-flex f-direction-r">
 
             <!-- listening current trak -->
             <div class="music debug">
@@ -441,11 +441,34 @@
             <!-- /listening current trak -->
 
             <!-- main playbar controls -->
-            <span class="central-commands debug"></span>
+            <div class="central-commands debug">
+
+                <!-- control for music -->
+                <div class="music-controls">
+
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-sharp fa-regular fa-circle-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-rotate-right"></i>
+
+                </div>
+                <!-- control for music -->
+
+                <div class="music-state">
+                    <!-- current music time -->
+                    <span class="time">0:25</span>
+                    <!-- /current music time -->
+
+                    <!-- total time music -->
+                    <span class="time">4:10</span>
+                    <!-- /total time music -->
+                </div>
+            </div>
             <!-- /main playbar controls -->
 
             <!-- control utilities -->
-            <span class="utilities debug"></span>
+            <div class="utilities debug"></div>
             <!-- /control utilities -->
         </div>
 

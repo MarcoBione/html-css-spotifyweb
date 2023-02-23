@@ -32,6 +32,10 @@
     flex-direction: column;
 }
 
+.f-direction-r{
+    flex-direction: row;
+}
+
 ul{
     list-style: none;
 }
@@ -349,6 +353,10 @@ main{
 
 .music, .utilities{
     width: 230px;
+    height: 100%;
+}
+.central-commands{
+    width: 40%;
     height: 100%;
 }
 .album-img-played img{
