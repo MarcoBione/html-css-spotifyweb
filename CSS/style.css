@@ -113,7 +113,55 @@ main{
     width: 230px;
     min-height: 480px;
     background-color: var(--dark);
+    justify-content: space-between;
 }
+
+.logo{
+    color: var(--light);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.logo sup{
+    color: var(--light);
+    font-weight: lighter;
+    font-size: 0.6rem;
+}
+
+.sidemenu-commands li img{
+    width: 1.5rem;
+    padding-right: 0.3rem;
+}
+
+.sidemenu-commands li{
+    padding: 0.3rem 0;
+}
+
+/* playlists */
+
+.playlist{
+    padding-top: 2rem;
+}
+.size{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.playlist>ul li i{
+    font-size: 2rem;
+    padding-right: 0.3rem;
+}
+
+/* /playlists */
+
+/* user profile */
+
+.sidemenu-user{
+    width: 100%;
+    height: 80px;
+}
+
+/* /user profile */
+
 /* /side nav menu */
 
 /* app content */
@@ -226,56 +274,6 @@ main{
 /* /first row */
 
 /* /app content */
-
-/* nav sidebarmenu */
-
-.logo{
-    color: var(--light);
-    font-weight: bold;
-    font-size: 2rem;
-}
-
-.logo sup{
-    color: var(--light);
-    font-weight: lighter;
-    font-size: 0.6rem;
-}
-
-.sidemenu-commands li img{
-    width: 1.5rem;
-    padding-right: 0.3rem;
-}
-
-.sidemenu-commands li{
-    padding: 0.3rem 0;
-}
-
-/* playlists */
-
-.playlist{
-    padding-top: 2rem;
-}
-.size{
-    font-weight: bold;
-    font-size: 1rem;
-}
-.playlist>ul li i{
-    font-size: 2rem;
-    padding-right: 0.3rem;
-}
-
-/* /playlists */
-
-/* user profile */
-
-.sidemenu-user{
-    width: 100%;
-    height: 80px;
-}
-
-/* /user profile */
-
-/* /nav sidebarmenu */
 
 /* main end */
 
