@@ -359,6 +359,14 @@ main{
     font-weight: bold;
 }
 
+.icon i{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.icon i:hover{
+    opacity: 1;
+}
 /* playbar end */
 
 /* app end */
