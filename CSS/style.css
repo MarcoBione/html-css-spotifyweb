@@ -308,10 +308,6 @@ main{
 
 /* first row */
 
-.row{
-    /* outline: 1px solid red; */
-}
-
 .spacer{
     width: calc(100% / 6);
 }
