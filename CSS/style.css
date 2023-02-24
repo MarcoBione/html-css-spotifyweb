@@ -457,7 +457,7 @@ main{
     cursor: pointer;
 }
 
-.slider::-webkit-slider-thumb {
+.slider::-webkit-slider-thumb{
     -webkit-appearance: none;
     appearance: none;
     width: 15px;
