@@ -498,20 +498,59 @@ main{
 
 /* MEDIA QUERY */
 
-@media screen and (max-width : 576px){
+@media screen and (max-width : 1200px){
+    
+}
+
+@media screen and (max-width : 1150px){
+
+    .spacer{
+        width: calc(100% / 4);
+    }
+
+    .row{
+        flex-flow: wrap;
+    }
+}
+
+@media screen and (max-width : 992px){
+
+    /* app content */
+    .spacer{
+        width: calc(100% / 3);
+    }
+
+    .row{
+      flex-flow: wrap;
+    }
+    /* app content end*/
+
+    .flexflow{
+        flex-flow: row wrap;
+    }
 
 }
 
 @media screen and (max-width : 768px){
-    
+    .spacer{
+        width: calc(100% / 2);
+    }
+
+    .row{
+        flex-flow: wrap;
+    }
 }
 
-@media screen and (max-width : 992px){
-    
-}
+@media screen and (max-width : 576px){
 
-@media screen and (max-width : 1200px){
-    
+    .spacer{
+        width: 100%;
+    }
+
+    .row{
+        flex-flow: wrap;
+    }
+
 }
 
 
