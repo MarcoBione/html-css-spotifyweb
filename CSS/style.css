@@ -202,7 +202,10 @@ main{
 
 .sidemenu-commands li img{
     width: 1.5rem;
-    padding-right: 0.3rem;
+}
+
+.sidemenu-commands li span{
+    padding-left: 0.3rem;
 }
 
 .sidemenu-commands li{
@@ -582,7 +585,29 @@ main{
 
     .sidemenu-commands li img {
         width: 2.8rem;
+    }
+
+    .cont ul li, .sidemenu-commands ul li{
+        background-color: transparent;
+        width: 2.8rem;
+        border: none;
         padding-right: 0.3rem;
+    }
+    
+    .cont ul li:hover, .sidemenu-commands ul li:hover{
+        border: 0px solid transparent;
+        width: 2.8rem;
+        padding-right: 0.3rem;
+        left: 0px;
+        padding-left: 0px;
+    }
+    
+    .cont ul li img:hover, .sidemenu-commands ul li img:hover{
+    transition: background-color 0.3s;
+    }
+
+    .cont ul li img:hover, .sidemenu-commands ul li img:hover{
+        background-color: var(--acid);
     }
 
     .logo {
@@ -615,6 +640,7 @@ main{
     .padd-info{
         padding: 1rem 0 1rem 1rem;
     }
+
 }
 
 @media screen and (max-width : 576px){
