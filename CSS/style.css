@@ -124,7 +124,7 @@ a:active{
     align-items: baseline;
 }
 
-.padd-1{
+.padd-1, .padd-info{
     padding: 1rem;
 }
 
@@ -287,8 +287,8 @@ main{
     right: 0;
     width: calc(100% - 230px);
     height: 70px;
+    background-color: rgba(0,0,0,0.5);
     backdrop-filter: blur( 10px );
-    -webkit-backdrop-filter: blur( 10px );
     z-index: 999;
 }
 
@@ -454,6 +454,10 @@ main{
     font-size: 1.5rem;
 }
 
+.time{
+    padding: 0 0.8rem;
+}
+
 /* /central playbar */
 
 /* utilities playbar */
@@ -541,6 +545,58 @@ main{
     }
 }
 
+@media screen and (max-width : 650px){
+
+    .utilities input{
+        display: none;
+    }
+
+    .nav-sidemenu span, .playlist{
+        display: none;
+    }
+
+    .nav-sidemenu {
+        width: 70px;
+        min-height: 480px;
+    }
+
+    .sidemenu-commands li img {
+        width: 2.8rem;
+        padding-right: 0.3rem;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .download{
+        display: flex;
+        justify-content: center;
+    }
+    .app-content {
+        width: calc(100% - 70px);
+        height: 100%;
+    }
+    
+    .profile a{
+        display: flex;
+        justify-content: center;
+    }
+    .wallpaper{
+        top: 18px;
+        left: 4px;
+        cursor: pointer;
+    }
+    
+    #promotions {
+        width: calc(100% - 70px);
+    }
+
+    .padd-info{
+        padding: 1rem 0 1rem 1rem;
+    }
+}
+
 @media screen and (max-width : 576px){
 
     .spacer{
@@ -551,6 +607,12 @@ main{
         flex-flow: wrap;
     }
 
+    .music, .utilities{
+        display: none;
+    }
+
+    #control-bar{
+        justify-content: center;
+    }
+
 }
-
-
