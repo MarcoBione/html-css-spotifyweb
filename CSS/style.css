@@ -148,7 +148,7 @@ a:active{
 }
 
 .padd-logo{
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem 1rem 0 1.2rem;
 }
 
 /* general end */
@@ -221,6 +221,17 @@ main{
 .playlist>ul li i{
     font-size: 2rem;
     padding-right: 0.3rem;
+}
+
+.cont ul li, .sidemenu-commands ul li{
+    border-left: 3px solid transparent;
+}
+
+.cont ul li:hover, .sidemenu-commands ul li:hover{
+    border-left: 3px solid var(--acid);
+    position: relative;
+    left: -15px;
+    padding-left: 15px;
 }
 
 /* /playlists */
@@ -303,6 +314,15 @@ main{
 
 .albums{
     margin-top: 70px;
+}
+
+.user-menu li:first-child{
+    border-bottom: 1px solid var(--acid);
+    font-weight: bolder;
+}
+
+.user-menu li:hover{
+    border-bottom: 1px solid var(--acid);
     
 }
 
@@ -613,6 +633,17 @@ main{
 
     #control-bar{
         justify-content: center;
+    }
+
+}
+
+@media screen and (max-height : 490px){
+
+    .cont{
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
     }
 
 }
